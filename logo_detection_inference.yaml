@@ -1,0 +1,48 @@
+---
+title: Logo Detection Inference
+version: 1.0.0
+description: Detect logo elements in images
+long_description: This blueprint allows you to deploy a ready to use endpoint that can detect logo elements in images
+
+author: "cnvrg"
+author_email: "info@cnvrg.io"
+
+tags:
+  - inference
+
+tasks:
+  - title: Deploy Logo Detection
+    top: 400
+    left: 300
+
+ 
+    type: deploy
+
+
+    library: logo-detection-inference
+    library_version: 1.0.0
+
+    command: python3 predict.py
+
+    requirements:
+      cpu: 1
+      memory: 4
+      gpu: 0
+      hpu: 0
+
+    image: python:3.8.6
+    language: python3
+
+    accept_files: false
+    gunicorn_config:
+      - key: workers
+        value: '1'
+    file_name: predict.py
+    function_name: predict
+    prep_file: '' 
+    prep_function: '' 
+    input_schema:
+        img: file
+    output_schema: {}
+        
+relations: []
