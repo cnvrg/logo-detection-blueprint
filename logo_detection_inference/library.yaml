@@ -15,8 +15,8 @@ kind: webservice
 command: python3 predict.py
 
 requirements:
-  cpu: 1
-  memory: 4
+  cpu: 2
+  memory: 6
   gpu: 0
   hpu: 0
 
