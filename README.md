@@ -1,4 +1,4 @@
-Use this blueprint using your custom data to train a tailored model and deploy an endpoint that detects logos in images. Training a logo-detection algorithm requires data provided in the form of logo-containing images, the logo locations, and their labels. 
+Use this blueprint with your custom data to train a tailored model and deploy an endpoint that detects logos in images. Training a logo-detection algorithm requires data provided in the form of logo-containing images, the logo locations, and their labels.
 To train this model with your data, provide the following two folders in the S3 Connector:
 - Images − A folder with the images to train the model
 - Labels − A folder with labels that correlate to the logos in the images folder
