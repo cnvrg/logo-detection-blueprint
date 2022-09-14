@@ -1,5 +1,5 @@
-Use this blueprint to train a tailored model using your custom data to detect logos in images. Training a logo-detection algorithm requires data provided in the form of logo-containing images, the logo locations, and their labels. This blueprint also creates an endpoint that detects logos in images based on the newly trained model.
-To train this model with your data, provide the following two folders located in the S3 Connector:
+Use this blueprint using your custom data to train a tailored model and deploy an endpoint that detects logos in images. Training a logo-detection algorithm requires data provided in the form of logo-containing images, the logo locations, and their labels. 
+To train this model with your data, provide the following two folders in the S3 Connector:
 - Images − A folder with the images to train the model
 - Labels − A folder with labels that correlate to the logos in the images folder
 
@@ -22,8 +22,7 @@ Complete the following steps to train this logo-detector model:
      - **Key**: `epochs` – **Value**: set the number of times the neural network trains the dataset
      - **Key**: `class_names` – **Value**: provide the names of the classes for the model to learn
    * Click the **Advanced** tab to change resources to run the blueprint, as required.
-5.	Click the **Run** button.
-   The cnvrg software launches the training blueprint as set of experiments, generating a trained scene classifier model and deploying it as a new API endpoint.
+5.	Click the **Run** button. The cnvrg software launches the training blueprint as set of experiments, generating a trained logo detector model and deploying it as a new API endpoint.
 6. Track the blueprint's real-time progress in its experiments page, which displays artifacts such as logs, metrics, hyperparameters, and algorithms.
 7. Click the **Serving** tab in the project and locate your endpoint. Complete one or both of the following options:
    * Use the Try it Live section with any logo image to check the model.
