@@ -1,8 +1,8 @@
 ---
 title: Logo Detection Batch
 version: 1.0.0 
-description: Batch blueprint for logo detection from files a directory.
-long_description: Blueprint to run logo detection on images and videos stored in a directory. 
+description: Detect logos and their positions in a batch of images and videos stored in a directory
+long_description: Detect logo elements and their positions in a batch of images and videos stored in a directory. 
 
 author: "cnvrg"
 author_email: "libhub@cnvrg.io"

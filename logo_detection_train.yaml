@@ -1,8 +1,8 @@
 ---
-title: Logo Detection Training 
+title: Logo Detection Training
 version: 1.0.0
-description: Train a model to detect logo elements in images and videos
-long_description: Train and deploy a model that detects logo elements in images and videos based on your data
+description: Train a model to detect logo elements and their positions in images and videos
+long_description: Train a tailored model using your custom data, and deploy an endpoint, which detects instances and their position coordinates of certain class logos in images and videos.
 
 author: "cnvrg"
 author_email: "info@cnvrg.io"
