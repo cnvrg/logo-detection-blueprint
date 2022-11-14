@@ -17,7 +17,7 @@ Complete the following steps to run this logo-detector blueprint in batch mode:
      - `/input/s3_connector/logo_detection_batch` − ensure the path adheres to this format
      NOTE: You can use prebuilt example data paths provided.
    - Click the **Advanced** tab to change resources to run the blueprint, as required.
-4. Click the **Run** button. Run The cnvrg software deploys a logo-detector model that detects logos and their locations in a batch of images.
+4. Click the **Run** button. The cnvrg software deploys a logo-detector model that detects logos and their locations in a batch of images.
 5. Track the blueprint’s real-time progress in its Experiments page, which displays artifacts such as logs, metrics, hyperparameters, and algorithms.
 6. Select **Batch > Experiments > Artifacts** and locate the output files.
 7. Select a File Name, click the Menu icon, and select **Open File** to view an output image or video file.
