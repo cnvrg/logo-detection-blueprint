@@ -28,5 +28,4 @@ Complete the following steps to train this logo-detector model:
    * Use the Try it Live section with any logo image to check the model.
    * Use the bottom Integration panel to integrate your API with your code by copying in your code snippet.
    
-A custom model that can detect logos in images has now been trained and deployed. Click [here](link) for detailed instructions to run this blueprint.
-To learn how this blueprint was created, click [here](https://github.com/cnvrg/logo-detection-blueprint/).
+A custom model that can detect logos in images has now been trained and deployed. To learn how this blueprint was created, click [here](https://github.com/cnvrg/logo-detection-blueprint/).
