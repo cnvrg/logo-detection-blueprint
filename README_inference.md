@@ -9,6 +9,4 @@ Complete the following steps to deploy this logo-detector API endpoint:
    * Use the Try it Live section with any logo image to check the model.
    * Use the bottom integration panel to integrate your API with your code by copying in your code snippet.
    
-An API endpoint that detects logos in images has now been deployed. Click [here](link) for detailed instructions to run this blueprint.
-
-To learn how this blueprint was created, click [here](https://github.com/cnvrg/logo-detection-blueprint/).
+An API endpoint that detects logos in images has now been deployed. To learn how this blueprint was created, click [here](https://github.com/cnvrg/logo-detection-blueprint/).
