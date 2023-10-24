@@ -23,5 +23,3 @@ Complete the following steps to run this logo-detector blueprint in batch mode:
 7. Select a File Name, click the Menu icon, and select **Open File** to view an output image or video file.
 
 A tailored model that detects logos, draws their boundaries, and labels them in images and videos has now been deployed in batch mode.
-
-To learn how this blueprint was created, click [here](https://github.com/cnvrg/logo-detection-blueprint).
