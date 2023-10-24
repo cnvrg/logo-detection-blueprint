@@ -2,7 +2,7 @@ Use this batch blueprint to run in batch mode a pretrained tailored model with y
 
 This blueprint supports by default detection of the following logo classes: CCD, Steeden, and 76. To detect custom logos, the path to the weights file is required. Run this counterpart’s [training blueprint](https://metacloud.cloud.cnvrg.io/marketplace/blueprints/logo-detection-training), and then upload the trained model weights to the S3 Connector.
 
-Click [here]() to view this blueprint's supported video and image formats.
+Click [here](https://github.com/cnvrg/logo-detection-blueprint/tree/master/logo_detection_batch) to view this blueprint's supported video and image formats.
 
 Complete the following steps to run this logo-detector blueprint in batch mode:
 1. Click the **Use Blueprint** button. The cnvrg Blueprint Flow page displays.
