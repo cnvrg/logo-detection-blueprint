@@ -1,8 +1,29 @@
+# Copyright (c) 2022 Intel Corporation
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy of
+# this software and associated documentation files (the "Software"), to deal in
+# the Software without restriction, including without limitation the rights to
+# use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+# the Software, and to permit persons to whom the Software is furnished to do so,
+# subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+# FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+# COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+# IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+# CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#
+# SPDX-License-Identifier: MIT
+
 ---
-title: Logo Detection Training 
+title: Logo Detection Training
 version: 1.0.0
-description: Train a model to detect logo elements in images and videos
-long_description: Train and deploy a model that detects logo elements in images and videos based on your data
+description: Train a model to detect logo elements and their positions in images and videos
+long_description: Train a tailored model using your custom data, and deploy an endpoint, which detects instances and their position coordinates of certain class logos in images and videos.
 
 author: "cnvrg"
 author_email: "info@cnvrg.io"
@@ -77,7 +98,7 @@ tasks:
     language: python3
 
     params:
-      - key: images
+      - key: files
         type: 'categorical'
         values:
           - '/input/s3_connector/logo_detection_data/images'
